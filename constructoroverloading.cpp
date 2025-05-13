@@ -8,4 +8,5 @@ class mahasiswa{
     string nama;
     public :
     mahasiswa();
+    mahasiswa(int);
 };
