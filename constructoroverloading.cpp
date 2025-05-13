@@ -9,4 +9,5 @@ class mahasiswa{
     public :
     mahasiswa();
     mahasiswa(int);
+    mahasiswa(string);
 };
