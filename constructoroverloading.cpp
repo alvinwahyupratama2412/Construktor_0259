@@ -37,7 +37,8 @@ void mahasiswa::cetak(){
 
 int main(){
     mahasiswa mhs1(102030);         //hanya nim
-
+    mahasiswa mhs2("Andi");         //hanya nama
 
     cout << "Mahasiswa 1: "; mhs1.cetak();
+    cout << "Mahasiswa 2: "; mhs2.cetak();
 }
