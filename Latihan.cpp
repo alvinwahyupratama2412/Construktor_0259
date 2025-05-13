@@ -28,5 +28,7 @@ int main(){
     persegiPanjang &refpP = pP;
     refpP.panjang = 6;
     refpP.lebar = 3;
+    cout << "Panjang = " << refpP.panjang << endl;
+    cout << "Lebar = " << refpP.lebar << endl;
     cout << "Luasnya = " << bD.hitungLuas(refpP.lebar, refpP.panjang)<<endl;
 }
